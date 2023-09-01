@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "axios": "^1.5.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "scripts": {
+    "build": "npx tsc",
+    "start": "node dist/fiscobcos-api/src/index.js",
+    "dev": "concurrently \"npx tsc --watch\" \"nodemon -q dist/fiscobcos-api/src/index.js\""
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.13",
+    "@types/express": "^4.17.11",
+    "@types/node": "^14.14.22",
+    "nodemon": "^2.0.7",
+    "ts-node": "^9.1.1",
+    "typescript": "^5.0.4"
+  }
+}
