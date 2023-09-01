@@ -5,9 +5,7 @@
 cd Web3-2048Game
 
 yarn or npm install
-```typescript
 
-```
 yarn run start or npm run start
 ```typescript
 
